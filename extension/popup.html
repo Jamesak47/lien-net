@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lien net</title>
+  <link rel="stylesheet" href="popup.css">
+  <script type="module" src="popup.mjs"></script>
+</head>
+<body>
+  <main>
+    <h1>Lien net</h1>
+    <form id="clean-form">
+      <label for="original">Lien à partager</label>
+      <input type="url" id="original" required placeholder="https://…" spellcheck="false">
+      <button type="submit" id="copy">Nettoyer et copier</button>
+    </form>
+    <p id="status" role="status"></p>
+    <div id="result" hidden>
+      <label for="cleaned">Lien à copier</label>
+      <textarea id="cleaned" rows="2" readonly></textarea>
+    </div>
+  </main>
+</body>
+</html>

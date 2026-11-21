@@ -1,0 +1,31 @@
+:root {
+  color-scheme: dark;
+  font: 14px system-ui, sans-serif;
+  color: #eaf8f1;
+  background: #10251e;
+}
+
+body { width: 340px; margin: 0; }
+main { padding: 20px; }
+h1 { margin: 0 0 18px; font-size: 24px; }
+label { display: block; margin-bottom: 6px; }
+input, textarea, button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #68887a;
+  border-radius: 8px;
+  font: inherit;
+}
+input, textarea { background: #18362b; color: inherit; }
+button {
+  margin-top: 10px;
+  background: #a7ebc6;
+  color: #10251e;
+  font-weight: 700;
+  cursor: pointer;
+}
+button:disabled { opacity: .65; }
+:focus-visible { outline: 2px solid #fff3ae; outline-offset: 3px; }
+#status { color: #cee3d8; margin-bottom: 0; }
+#result { margin-top: 10px; }
